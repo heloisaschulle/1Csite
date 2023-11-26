@@ -1,0 +1,33 @@
+header {
+    background: #c7afaf;/*cor de fundo*/
+    padding: 20px 0;/*espaço em torno de um elemento*/
+}
+
+.caixa {
+    position: relative;/*posicionar elementos na página*/
+    width: 940px;/*largura do elemento*/
+    margin: 0 auto;/*centralizar conteúdo margem automática*/
+}
+
+main {
+    background: #f0dede;
+}
+
+nav {
+    position: absolute;/*posicionar elementos na página*/
+    top: 110px;/*posição do elemento em relação a parte superior da página*/
+    right: 0;/*direita*/
+}
+
+nav li {
+    display: inline;/*elemento que se mantêm em linha*/
+    margin: 0 0 0 15px;/*tamanho de todas as 4 margens*/
+}
+
+nav a {
+    text-transform: uppercase;/*texto em maiusculo*/
+    color: #000000;/*cor do texto*/
+    font-weight: bold;/*fonte negrito*/
+    font-size: 22px;/*tamanho da fonte*/
+    text-decoration: none;/*retirar decoração padrão o sublinhado*/
+}
