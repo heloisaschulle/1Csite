@@ -31,3 +31,18 @@ nav a {
     font-size: 22px;/*tamanho da fonte*/
     text-decoration: none;/*retirar decoração padrão o sublinhado*/
 }
+
+/*passando o mouse sobre o elemento(pseudo-classes)*/
+nav a:hover {
+    color: #a108bc;  /* colocando cor*/
+    text-decoration: underline;  /*texto sublinhando quando o mouse estiver posicionado*/
+}
+
+.produtos {
+    width: 940px;/*largura*/
+    margin: 0 auto;/*espaçamento externo*/
+    padding: 50px 0;/*espaçamento interno*/
+}
+
+.produtos li {
+    
