@@ -45,4 +45,18 @@ nav a:hover {
 }
 
 .produtos li {
-    
+    display: inline-block;/*vão se manter posicionados um ao lado do outro, sem quebras de linhas*/
+    text-align: center;/*texto centralizado*/
+    width: 30%; /*largura*/
+    vertical-align: top;/*alinhamento vertical do elemento, parte superios*/
+    margin: 0 1.5%; /*espaçamento externo*/
+    padding: 30px 20px; /*espaçamento interno*/
+    box-sizing: border-box; /**/
+    /*desenvolvimento da borda, as 3 linhas abaixo podemos substituir por uma,
+    linha 56.
+    border-color:#000000 ; cor da borda
+    border-width: 2px ;    tamanho da borda, largura
+    border-style: solid ;  borda sólida*/
+    border: 2px solid #000000;/*largura estilo e cor de todas as 4 bordas*/
+    border-radius: 10px;/*bordas aredonds*/
+}
